@@ -111,7 +111,7 @@ public class FirstProposition {
  
     
    
-    public void baquetization_equal_packets(int size,double z,int y) {
+    public void BuckTop_bucketization(int size,double z,int y) {
         int last_elem;
         double pid;
         double score_supr;
@@ -187,7 +187,7 @@ public class FirstProposition {
     }
  
     
-    public void get_result_algorithm_by_packet(int k_elements,int size){
+    public void BuckTop_query_processing(int k_elements,int size){
         long begintime=System.currentTimeMillis();
         Map<String,Integer> exist_in_answers = new HashMap<String,Integer>();
         double [] seenDatalocalScores = new double [numColumns];
@@ -283,7 +283,7 @@ public class FirstProposition {
     
   
   
-  public void top_k_elem_extraction(ListElement [] final_result, int k){
+  public void BuckTop_pre_processing(ListElement [] final_result, int k){
         double global_score;
         double min;
         int index_min;
