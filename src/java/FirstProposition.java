@@ -258,6 +258,7 @@ public class FirstProposition {
         long endtime=System.currentTimeMillis();
         System.out.println("le temps du proposition1 est "+(endtime-begintime));
         System.out.println("la stop position est "+(i));
+        // filtering process
         long x=System.currentTimeMillis();
         j = Answers.size();
         System.out.println("la taille des réponses est "+j);
