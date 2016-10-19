@@ -85,10 +85,10 @@ public class proposition1main {
             byte[] secretKey = bf.getSecretKeyInBytes();
             fp.encode_using_Blowfish(bf);
             System.out.println("chiffrement BLOWFISH terminé");
-            fp.baquetization_equal_packets(size,a,e);
+            fp.BukTop_bucketization(size,a,e);
             System.out.println("baquetization terminé");
             long begin_run_time=System.currentTimeMillis();
-            fp.get_result_algorithm_by_packet(k,size);
+            fp.BuckTop_query_processing(k,size);
             long end_run_time=System.currentTimeMillis();
 
             System.out.println("le temps écouler pour calculer le résultat est"+(end_run_time-begin_run_time));
@@ -97,7 +97,7 @@ public class proposition1main {
             end_run_time=System.currentTimeMillis();
             System.out.println("le temps écouler pour calculer le dechiffrement est"+(end_run_time-begin_run_time));
             begin_run_time=System.currentTimeMillis();	
-            fp.top_k_elem_extraction(final_result,k);
+            fp.BuckTop_pre_processing(final_result,k);
             end_run_time=System.currentTimeMillis();
             System.out.println("le temps écouler pour extraire les k elements est"+(end_run_time-begin_run_time));
         
