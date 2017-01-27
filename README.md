@@ -23,4 +23,6 @@ We implemented our approach, and compared its response time over encrypted data 
 The parameters are modifiable by changing their values in proposition1main.java class.
 # Code execution 
 Only run proposition1main.java class after changing the parameters.
+# Paper
+S. Mahboubi, R. Akbarinia, and P. Valduriez. Rank query processing over outsourced encrypted data. Under review, 2017.
 
