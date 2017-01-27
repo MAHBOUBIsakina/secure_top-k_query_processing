@@ -24,7 +24,6 @@ The parameters are modifiable by changing their values in proposition1main.java 
 # Code execution 
 Only run proposition1main.java class after changing the parameters.
 # Paper
-S. Mahboubi, R. Akbarinia, and P. Valduriez. Rank query processing over outsourced encrypted data. Under review, 2017.=>
-https://github.com/MAHBOUBIsakina/secure_top-k_query_processing/blob/master/VLDB%20Paper/Secure_Topk_Long_Version.pdf
+S. Mahboubi, R. Akbarinia, and P. Valduriez. Rank query processing over outsourced encrypted data. Under review, 2017.
 
 
