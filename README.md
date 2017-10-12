@@ -19,7 +19,7 @@ To solve this problem, we propose a new approach, called BuckTop that efficientl
 
 We implemented our approach, and compared its response time over encrypted data with a base algorithm and also with TA over original (plaintext) data. The experimental results show excellent performance gains for BuckTop. For example, the results show that the response time of BuckTop over encrypted data is close to TA over plaintext data. Over some databases, the response time of BuckTop is even better than TA. The results also illustrate that more than 99.9 \% of the false positives can be eliminated in the server by BuckTop's filtering algorithm.  
 
-# Parameters configuration
+# Parameter configuration
 The parameters are modifiable by changing their values in proposition1main.java class.
 # Code execution 
 Only run proposition1main.java class after changing the parameters.
