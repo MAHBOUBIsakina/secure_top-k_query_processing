@@ -23,7 +23,6 @@ We implemented our approach, and compared its response time over encrypted data 
 The parameters are modifiable by changing their values in proposition1main.java class.
 # Code execution 
 Only run proposition1main.java class after changing the parameters.
-# Paper
-<a href="https://github.com/MAHBOUBIsakina/secure_top-k_query_processing/blob/master/Paper%20-%20Long%20Version/Secure_Topk_Long_Version.pdf">S. Mahboubi, R. Akbarinia, and P. Valduriez. Rank query processing over outsourced encrypted data. Under review, 2017.</a>
+
 
 
